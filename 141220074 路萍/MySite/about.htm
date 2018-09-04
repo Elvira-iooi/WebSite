@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<style type="text/css">
+<!--
+.STYLE2 {font-size: 36px}
+.STYLE3 {color: #0000FF}
+.STYLE4 {
+	font-size: 14px;
+	color: #0000FF;
+}
+.STYLE6 {color: #0000FF}
+-->
+</style>
+</head>
+
+<body>
+<table width="907" border="0" cellpadding="2">
+  <tr>
+    <td width="899" class="STYLE6"><p class="STYLE4 ">主题--浪漫花圃。
+     </p>
+      <p class="STYLE4 "> 要实现内容浏览，页内搜索，用户登录与注册，以及购物车等功能。      </p>
+      <p class="STYLE4 ">包含的页面文件有：用于显示的静态页：index.htm、left.htm、main.htm、bottom.htm、about.htm等。</p>
+      <p class="STYLE4 "> 用于处理数据的动态页：main.php、shopping.php、sheet.php、regist.php、login.php等。</p>
+      <p class="STYLE4 ">还有素材图片文件，存放于images 文件夹之中。 </p>
+      <p class="STYLE4 ">系统还有许多问题需要以后学习解决。</p>
+    </td>
+  </tr>
+</table>
+<p align="justify" class="STYLE3 STYLE4">
+
+<h2 class="STYLE6" ><strong>数据库mysql平台</strong> </h2>
+<h2 class="STYLE6" ><strong>库：shop 包括三个表:</strong> </h2>
+<table width="913" border="0" cellpadding="2">
+  <tr>
+    <td width="232" class="STYLE6"><strong>Client(用户表)</strong></td>
+    <td width="347" class="STYLE6"><strong>Order(订单表)</strong></td>
+    <td width="314" class="STYLE6"><strong>Rose(商品表)</strong></td>
+  </tr>
+  <tr>
+    <td class="STYLE6"><table >
+      <tr>
+        <td width="137" valign="center" ><p align="center" ><strong>字段</strong> </p></td>
+        <td width="117" valign="center" ><p align="center" ><strong>类型</strong> </p></td>
+        <td width="40" valign="center" ><p align="center" ><strong>空</strong> </p></td>
+      </tr>
+      <tr>
+        <td width="137" valign="center" ><p >userId <em>(主键)</em> </p></td>
+        <td width="117" valign="center" ><p >varchar(18) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="137" valign="center" ><p >userName </p></td>
+        <td width="117" valign="center" ><p >varchar(20) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="137" valign="center" ><p >userPassword </p></td>
+        <td width="117" valign="center" ><p >varchar(18) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="137" valign="center" ><p >address </p></td>
+        <td width="117" valign="center" ><p >varchar(50) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="137" valign="center" ><p >phone </p></td>
+        <td width="117" valign="center" ><p >int(12) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+    </table></td>
+    <td class="STYLE6"><table >
+      <tr>
+        <td width="177" valign="center" ><p align="center" ><strong>字段</strong> </p></td>
+        <td width="117" valign="center" ><p align="center" ><strong>类型</strong> </p></td>
+        <td width="40" valign="center" ><p align="center" ><strong>空</strong> </p></td>
+      </tr>
+      <tr>
+        <td width="177" valign="center" ><p >oderNumber <em>(主键)</em> </p></td>
+        <td width="117" valign="center" ><p >int(6) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="177" valign="center" ><p >clientName </p></td>
+        <td width="117" valign="center" ><p >varchar(20) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="177" valign="center" ><p >address </p></td>
+        <td width="117" valign="center" ><p >varchar(60) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="177" valign="center" ><p >numbers </p></td>
+        <td width="117" valign="center" ><p >int(4)</p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="177" height="15" valign="center" ><p >phone </p></td>
+        <td width="117" valign="center" ><p >int(12) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+    </table></td>
+    <td class="STYLE6"><table >
+      <tr>
+        <td width="127" valign="center" ><p align="center" ><strong>字段</strong> </p></td>
+        <td width="127" valign="center" ><p align="center" ><strong>类型</strong> </p></td>
+        <td width="40" valign="center" ><p align="center" ><strong>空</strong> </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >id <em>(主键)</em> </p></td>
+        <td width="127" valign="center" ><p >int(8) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >name </p></td>
+        <td width="127" valign="center" ><p >varchar(20) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >serialNumber </p></td>
+        <td width="127" valign="center" ><p >int(4) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >price </p></td>
+        <td width="127" valign="center" ><p >float </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >stock </p></td>
+        <td width="127" valign="center" ><p >int(5) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >detail </p></td>
+        <td width="127" valign="center" ><p >varchar(500) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+      <tr>
+        <td width="127" valign="center" ><p >style </p></td>
+        <td width="127" valign="center" ><p >varchar(4) </p></td>
+        <td width="40" valign="center" ><p >否 </p></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<h2 class="STYLE6" >&nbsp;</h2>
+<h2 class="STYLE6" >&nbsp;</h2>
+<h2 class="STYLE6" >&nbsp; </h2>
+<h2 class="STYLE6" >&nbsp; </h2>
+<p align="justify" class="STYLE2 STYLE6">
+</body>
+</html>
